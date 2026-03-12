@@ -680,6 +680,9 @@ ul {
     
     .nav-links.active { right: 0; }
     
+    .navbar.scrolled .nav-links li a,
+    .nav-links li a { color: var(--bg-white); font-size: 1.2rem; }
+    
     .menu-icon { display: block; z-index: 1001; }
     .menu-icon.active i::before { content: "\f00d"; } /* Change to X icon */
     
